@@ -33,4 +33,5 @@ db.each("SELECT id, nome FROM TB_PROFESSOR", function(err, row) {
 db.each("SELECT id, nome FROM TB_DISCIPLINA", function(err, row) {
     console.log(row.id + ": " + row.nome);
   });
+   });
 db.close();
